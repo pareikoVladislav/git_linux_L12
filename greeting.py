@@ -1,2 +1,10 @@
-us_name = input("Enter your name: ")
-print(f"Greeting {us_name}")
+user_name = input("Enter your name: ")
+
+
+def greeting(name):
+	return f"Greeting you, {name}!!!"
+
+
+greet = greeting(user_name)
+
+print(greet)
